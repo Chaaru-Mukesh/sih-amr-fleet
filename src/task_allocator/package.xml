@@ -6,7 +6,7 @@
   <description>TODO: Package description</description>
   <maintainer email="chaaru@todo.todo">chaaru</maintainer>
   <license>TODO: License declaration</license>
-
+  <depend>task_msgs</depend>
   <depend>rclpy</depend>
   <depend>std_msgs</depend>
   <depend>geometry_msgs</depend>

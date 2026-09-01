@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='chaaru',
     maintainer_email='chaaru@todo.todo',
-    description='TODO: Package description',
+    description='Task allocator for multi-robot fleet',
     license='TODO: License declaration',
     extras_require={
         'test': [
@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'task_allocator_node = task_allocator.task_allocator_node:main',
         ],
     },
 )
+
